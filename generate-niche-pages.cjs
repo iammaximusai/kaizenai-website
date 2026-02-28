@@ -217,8 +217,8 @@ function generatePage(niche) {
     <meta property="og:url" content="https://kaizenai.agency/for/${niche.slug}">
     <link rel="canonical" href="https://kaizenai.agency/for/${niche.slug}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../niche.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/niche.css">
 </head>
 <body class="niche-page">
     <!-- Nav -->
@@ -313,7 +313,7 @@ function generatePage(niche) {
         </div>
     </footer>
 
-    <script src="../chatbot.js"></script>
+    <script src="/chatbot.js"></script>
 </body>
 </html>`;
 }
